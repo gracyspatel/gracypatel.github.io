@@ -1,0 +1,131 @@
+*
+body{
+	margin: 0px;
+	padding:0px;
+}
+nav{
+	font-size: 20px;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+.div-logo{
+	background-color: black;
+	width: 190px;
+	height: 60px;
+	margin-top: 30px;
+	margin-left : 30px;
+	text-align: center;
+	padding-top: 20px;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+
+.logo{
+	font-size: 40px;
+	text-decoration: none;
+	font-family: Trattatello, fantasy;
+	color: #F9F1F0;
+}
+section{
+	width: 100%;
+	height: 95px;
+}
+nav{
+	display: inline-flex-right;
+	float: right;
+	background-color: #FADCD9;
+	text-align: center;
+	width: 100%;
+	height: 70px;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+	align-items: center;
+	justify-content: space-between;
+}
+a{
+	text-decoration: none;
+	color: black;
+	padding: 20px;
+	font-size: 20px;
+}
+.div-ele a:hover{
+	font-weight: bold;
+}
+li{
+	list-style: none;
+	float: center;
+	padding-right: 40px;
+}
+.div-ele{
+		float: right;
+		text-align: center;
+}
+.text-container1 p:nth-child(1){
+	font-family: calibri;
+	font-weight: bold;
+	color: #6d6d6d;
+	font-size: 32px;
+}
+.text-container p:nth-child(1){
+	font-family: calibri;
+	font-weight: bold;
+	color: #6d6d6d;
+	font-size: 32px;
+}
+.text-container p:nth-child(2){
+	font-family: calibri;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #lalala;
+	font-size: 70px;
+}
+.text-container p:nth-child(3){
+	font-family: myrid pro regular;
+	color: #403e3e;
+	font-size: 40px;
+	line-height: 40px;
+}
+.text-container p{
+	line-height: 0px;
+	margin: 45px 0px 25px;
+}
+.text-container{
+	position: absolute;
+	left: 5%;
+	top: 40%;
+}
+.active{
+	background-color: #F9F1F0;
+}
+.text-container1{
+	position: absolute;
+	right: 3%;
+	top:10%;
+	font-size: 20px;
+}
+.text-container2{
+	position: absolute;
+	top:350px;
+	text-align:justify-all;
+	background-color:#F9F1F0; 
+	margin: 40px;
+	padding: 20px;
+	width: 35%;
+	border-radius: 40px;
+}
+.img{
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+	align-content: center;
+	height: 50%;
+	width: 600px;
+	min-width: 400px;
+	border-radius: 10%;
+}
+.grid-container {
+	top:5px;
+	display: grid;
+ 	grid-template-columns: auto auto;
+ 	padding: 10px;
+}
+.grid-item {
+ 	font-size: 30px;
+}
